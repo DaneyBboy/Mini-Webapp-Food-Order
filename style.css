@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: "Smythe", serif;
+    
+} 
+
+.container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DEDEDE;
+    padding-bottom: 1px;
+}
+
+.banner{
+    background-image: url("Images/bg-img.png");
+    background-size: 100% 100%;
+    width: 600px;
+    height: 150px;
+    color: #FFFFFF;
+}
+
+.banner > h1{
+    padding-top: 46px;
+    padding-left: 46px;
+    margin: 0px;
+    letter-spacing: 3px;
+}
+
+.banner > p{
+    padding-left: 46px;
+    margin: 0px;
+}
+
+
+
+    #menu-item{
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 37px;
+        gap: 20px; /* Space between flex items */
+        
+    }
+    
+    /* Individual menu item styling */
+    .flex-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 432px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: 80px;
+        border-bottom: 3px solid #D2D2D2;
+    }
+    
+    .flex-item img {
+        width: 10%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .flex-item h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    
+    .flex-item p {
+        font-size: 1rem;
+        color: #555;
+    }
+    
+    .flex-item h4 {
+        font-size: 1.25rem;
+        margin: 10px 0;
+        font-weight: 500;
+        color: #333;
+    }
+    
+    #menu-item button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    button p {
+        margin: 0;
+    }
+    h1,h4{
+        font-weight: 500;
+    }
+    .order-checkout{
+        padding: 46px;
+        margin: 10%;
+        background-color: #F5F5F5;       
+    }
+
+    .urorder{
+        text-align: center;
+    }
+    .flexorder-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flexorder-container > button{
+        margin-left: 50%;
+        margin-bottom: 0%;
+    } 
+    .order-button{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #BBBBBB;
+    }
+    .flexorder-container button:hover{
+        background-color: transparent;
+    }
+    .newhr{
+        border-bottom: 1px solid black;
+    }
+    #complete-order{
+        border: none;
+        background-color: #16DB99;
+        padding: 17px 135px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+    .pay-button{
+        border: none;
+        background-color: #16DB99;
+        padding: 17px 135px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color: white;
+        margin-bottom: 20px;
+
+    }
+
+    #card-details-form{
+        display: none;
+        margin: auto;
+        flex-direction: column;
+        gap: 25px;
+        padding: 12px 35px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+    }
+    #pay-header{
+        font-size: larger;
+        font-weight: bold;
+    }
+    input{
+        height: 50px;
+        padding-left: 15px;
+    }
+    .order-confirmation{
+        background-color: #ECFDF5;
+        width: 469px;
+        display: none;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px 0px;
+
+    }
